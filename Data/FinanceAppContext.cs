@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FinanceApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinanceApp.Data
 {
@@ -9,8 +10,5 @@ namespace FinanceApp.Data
         {
         }
         public DbSet<Expense> Expenses { get; set; } = null!;
-    }
-    {
-
     }
 }
